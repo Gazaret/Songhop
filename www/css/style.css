@@ -1,6 +1,6 @@
 /* Splash page stylings */
 .splash-page {
-  background: url(/img/splash-bkg.jpg);
+  background: url('../img/splash-bkg.jpg');
   background-size: cover;
   background-repeat: no-repeat; }
   .splash-page .card {
@@ -33,10 +33,10 @@
   .discover-page .current-song .item-image {
     max-height: 300px;
     overflow: hidden; }
-  .discover-page .current-song .img-lookahead img {
-    height: 1px;
-    width: 1px;
-    opacity: 0.01; }
+.discover-page .img-lookahead img {
+  height: 1px;
+  width: 1px;
+  opacity: 0.01; }
 
 @media screen and (max-height: 600px) {
   .discover-page .current-song .item-image {

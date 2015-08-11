@@ -1,6 +1,6 @@
 /* Splash page stylings */
 .splash-page {
-  background:url(/img/splash-bkg.jpg);
+  background:url('../img/splash-bkg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -48,13 +48,12 @@
 			max-height:300px;
   			overflow:hidden;
 		}
-
-		.img-lookahead {
-			img {
-				height:1px;
-				width:1px;
-				opacity:0.01;
-			}
+  }
+	.img-lookahead {
+		img {
+			height:1px;
+			width:1px;
+			opacity:0.01;
 		}
 	}
 }

@@ -1,4 +1,5 @@
 angular.module('songhop.services', [])
+
 	.factory('User', function($http, $q, $localstorage, SERVER) {
 		var o = {
 			username: false,
@@ -13,7 +14,7 @@ angular.module('songhop.services', [])
 			if(signingUp) {
 				authRoute = 'signup';
 			} else {
-				authRoute = 'login'
+				authRoute = 'login';
 			}
 
 			return $http.post(SERVER.url + '/' + authRoute, {username: username})
@@ -116,6 +117,7 @@ angular.module('songhop.services', [])
 
 		return o;
 	})
+
 	.factory('Recommendations', function($http, SERVER, $q) {
 		var media;
 		var o = {
